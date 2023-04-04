@@ -10,7 +10,7 @@ weight 2
 }
 vrrp_instance VI_1 {
 interface ens190
-state MASTER
+state BACKUP
 advert_int 1
 virtual_router_id 51
 priority 101
